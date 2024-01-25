@@ -1,6 +1,9 @@
 body {
     background-color: rgb(0, 0, 0);
-    font-family: "DM San", sans-serif;
+    font-family: var(--font-dm-sans);
+
+    position: relative;
+    min-height: 100vh;
 }
 
 .sidebar {
@@ -43,7 +46,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    /* font-family: "DM San", sans-serif; */
 }
 
 .library {
@@ -74,7 +76,6 @@ body {
     border: 0;
     font-size: 14px;
     font-weight: 700;
-    /* font-family: "DM San", sans-serif;; */
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -118,12 +119,12 @@ body {
 
 .section-playlist__content .title {
     font-weight: 700;
-} 
+}
 
 .section-playlist__content .subtitle {
     font-weight: 500;
     font-size: 12px;
-} 
+}
 
 .section-playlist__content .section-playlist__button {
     /* display: flex;
@@ -133,7 +134,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    /* font-family: "DM San", sans-serif; */
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -159,7 +159,7 @@ body {
 
 .languages .languages__button {
     background-color: transparent;
-    border: 1px solid  #878787;
+    border: 1px solid #878787;
     color: #fff;
     /* align-items: center; */
     font-weight: bold;
